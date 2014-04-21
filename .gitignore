@@ -1,0 +1,12 @@
+*.elc
+.*~
+*~
+#*#
+.#*
+.*.rej
+*.rej
+auto-save-list/
+elpa/
+server/
+url/
+dict/
