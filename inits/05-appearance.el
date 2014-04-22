@@ -1,3 +1,21 @@
+;;; 対応する括弧をハイライト
+(show-paren-mode t)
+(setq show-paren-style 'mixed)
+;;(setq show-paren-delay 0)
+;;; 括弧の範囲色
+;;(set-face-background 'show-paren-match-face "#500")
+
+;;; 選択部分のハイライト
+;;(transient-mark-mode t)
+;;; 選択領域の色
+;;(set-face-background 'region "#555")
+
+;;; 行末の空白を表示
+(setq-default show-trailing-whitespace t)
+;;(set-face-background 'trailing-whitespace "blue")
+;;; 空白行を表示
+(setq-default default-indicate-empty-lines t)
+
 ;;; 行間
 (setq-default line-spacing 0)
 

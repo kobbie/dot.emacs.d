@@ -1,19 +1,3 @@
-;;; Paren
-(show-paren-mode t)
-(setq show-paren-style 'mixed)
-;;;(setq show-paren-delay 0)
-;;; 括弧の範囲色
-;;(set-face-background 'show-paren-match-face "#500")
-
-;;; 選択領域のハイライトを有効
-;;(transient-mark-mode t)
-;;; 選択領域の色
-;;(set-face-background 'region "#555")
-
-;;; 行末の空白を表示
-;;(setq-default show-trailing-whitespace t)
-;;(set-face-background 'trailing-whitespace "blue")
-
 ;;; タブをスペースで扱う
 (setq-default indent-tabs-mode nil)
 
@@ -50,6 +34,9 @@
 ;;; time-stamp
 (add-hook 'before-save-hook 'time-stamp)
 (setq time-stamp-pattern nil)
+
+;;; symlinkは必ず追いかける
+(setq vc-follow-symlinks t)
 
 ;;; Comment Style
 (setq comment-style 'multi-line)
