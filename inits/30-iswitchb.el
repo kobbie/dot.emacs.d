@@ -2,7 +2,7 @@
   (iswitchb-mode t)
   (setq iswitchb-buffer-ignore '("^ " "*Buffer"))
 
-  ;;; keymap
+  ;; keymap
   (defun iswitchb-local-keys ()
     (define-key iswitchb-mode-map [right] 'iswitchb-next-match)
     (define-key iswitchb-mode-map [left] 'iswitchb-prev-match)

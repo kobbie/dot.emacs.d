@@ -1,4 +1,4 @@
 (when (require 'uniquify nil t)
-  ;;; uniquify style
+  ;; uniquify style
   (setq uniquify-buffer-name-style 'post-forward-angle-brackets)
 )
