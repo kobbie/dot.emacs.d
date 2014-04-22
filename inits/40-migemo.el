@@ -1,10 +1,12 @@
-(when (require 'migemo nil t)
-  ;; Migemoのコマンド名
+(when (and (executable-find "cmigemo")
+           (require 'migemo nil t))
+  ;; cmigemoを使う
   (setq migemo-command "cmigemo")
   ;; Migemoのコマンドラインオプション
   (setq migemo-options '("-q" "--emacs" "-i" "\a"))
   ;; Migemo辞書の場所
-  ;(setq migemo-dictionary "/usr/share/cmigemo/utf-8/migemo-dict")
+  ;; linux-migemo.el/windows-migemo.elでOSごとに設定
+  ;;(setq migemo-dictionary "/usr/share/cmigemo/utf-8/migemo-dict")
   ;; cmigemoで必須の設定
   (setq migemo-user-dictionary nil)
   (setq migemo-regex-dictionary nil)
