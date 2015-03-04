@@ -29,6 +29,7 @@
     web-mode
     ;; color-theme-sanityinc-solarized
     ;; solarized-theme
+    recentf-ext
     ))
 
 (let ((not-installed (loop for x in installing-package-list

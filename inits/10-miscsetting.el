@@ -7,13 +7,6 @@
 ;;; yes or noをy or n
 ;;(fset 'yes-or-no-p 'y-or-n-p)
 
-;;; 最近使ったファイルをメニューに表示
-(recentf-mode t)
-;;; 最近使ったファイルの表示数
-(setq recentf-max-menu-items 10)
-;;; 最近開いたファイルの保存数を増やす
-(setq recentf-max-saved-items 3000)
-
 ;;; ミニバッファの履歴を保存する
 ;;(savehist-mode 1)
 ;;; ミニバッファの履歴の保存数を増やす
