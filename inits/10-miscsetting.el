@@ -5,7 +5,7 @@
 ;;(setq-default tab-width 4)
 
 ;;; yes or noをy or n
-;;(fset 'yes-or-no-p 'y-or-n-p)
+(fset 'yes-or-no-p 'y-or-n-p)
 
 ;;; ミニバッファの履歴を保存する
 ;;(savehist-mode 1)
